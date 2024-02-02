@@ -290,7 +290,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill h5 {
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 700;
 }
 
@@ -299,7 +299,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  margin: 14px 0 75px 0;
+  margin-top: 14px;
 }
 .skill-slider {
   width: 80%;
@@ -308,7 +308,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill-slider .item img {
-  width: 50%;
+  width: 48%;
+  
   margin: 0 auto 15px auto;
 }
 
@@ -317,6 +318,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   left: 0;
   width: 100%;
   z-index: -4;
+}
+
+.skill .item {
+  margin-top: 35px;
 }
 
 
