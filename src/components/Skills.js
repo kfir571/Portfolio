@@ -39,7 +39,7 @@ export const Skills = () => {
 
       return (
         <section className="skill" id="skills">
-            <img className="background-image-left" src={colorSharp} />
+            <img className="background-image-left" src={colorSharp} alt="background-img"/>
             <Container>
                 <Row>
                     <Col>
@@ -47,35 +47,35 @@ export const Skills = () => {
                             <h2>Skills</h2>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
-                                    <img src={web_development} alt="Image" />
+                                    <img src={web_development} alt="web_development_image" />
                                     <h5>Web Development</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={android} alt="Image" />
+                                    <img src={android} alt="android_image" />
                                     <h5>Android</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={react} alt="Image" />
+                                    <img src={react} alt="react_image" />
                                     <h5>React & React Native</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={python} alt="Image" />
+                                    <img src={python} alt="python_image" />
                                     <h5>Python</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={java_script} alt="Image" />
+                                    <img src={java_script} alt="java_script_image" />
                                     <h5>JavaScript</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={html} alt="Image" />
+                                    <img src={html} alt="html_image" />
                                     <h5>HTML</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={css} alt="Image" />
+                                    <img src={css} alt="css_image" />
                                     <h5>CSS</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={git} alt="Image" />
+                                    <img src={git} alt="git_iImage" />
                                     <h5>Git</h5>
                                 </div>
                             </Carousel>
