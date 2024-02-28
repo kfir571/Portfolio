@@ -2,9 +2,15 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Container, Row, Col } from "react-bootstrap";
 
-import meter1 from "../assets/img/meter1.svg"
-import meter2 from "../assets/img/meter2.svg"
-import meter3 from "../assets/img/meter3.svg"
+import web_development from "../assets/img/skills_svg/web-development.png"
+import android from "../assets/img/skills_svg/android.svg"
+import python from "../assets/img/skills_svg/python.svg"
+import react from "../assets/img/skills_svg/react.svg"
+import java_script from "../assets/img/skills_svg/javas_cript.svg"
+import html from "../assets/img/skills_svg/html.svg"
+import css from "../assets/img/skills_svg/css.svg"
+import git from "../assets/img/skills_svg/git.svg"
+
 import colorSharp from "../assets/img/color-sharp.png"
 
 
@@ -33,43 +39,50 @@ export const Skills = () => {
 
       return (
         <section className="skill" id="skills">
+            <img className="background-image-left" src={colorSharp} />
             <Container>
                 <Row>
                     <Col>
                         <div className="skill-bx">
                             <h2>Skills</h2>
-                            <p>Lrem Inpsum is simply dummy text of the printing and typesetting industry.<br />Lorem Inpsum has been the industry's standard dummy text.</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
-                                    <img src={meter1} alt="Image" />
+                                    <img src={web_development} alt="Image" />
                                     <h5>Web Development</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="Image" />
+                                    <img src={android} alt="Image" />
                                     <h5>Android</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter3} alt="Image" />
-                                    <h5>Software Developer</h5>
+                                    <img src={react} alt="Image" />
+                                    <h5>React & React Native</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter1} alt="Image" />
-                                    <h5>JavaScript & React</h5>
-                                </div>
-                                <div className="item">
-                                    <img src={meter2} alt="Image" />
+                                    <img src={python} alt="Image" />
                                     <h5>Python</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter3} alt="Image" />
-                                    <h5>Back-End</h5>
+                                    <img src={java_script} alt="Image" />
+                                    <h5>JavaScript</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={html} alt="Image" />
+                                    <h5>HTML</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={css} alt="Image" />
+                                    <h5>CSS</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={git} alt="Image" />
+                                    <h5>Git</h5>
                                 </div>
                             </Carousel>
                         </div>
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-left" src={colorSharp} />
         </section>
       )
 }
