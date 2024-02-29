@@ -1,4 +1,3 @@
-import { Container, Row, Col } from "react-bootstrap";
 import myAvatar from "../assets/img/myAvatar.png"
 
 export const ContactEmail = () => {
