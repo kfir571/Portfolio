@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import snail from '../assets/img/snail.png';
 import linkedin_icon from '../assets/img/linkedin_icon.svg';
-import git_icon from '../assets/img/git_icon.svg';
+import git_icon from '../assets/img/git_icon.png';
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
@@ -52,7 +52,7 @@ export const NavBar = () => {
                 <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/kfir-shabi1?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2BOHSzn7RScuJxTQ%2BpKTFZA%3D%3D"><img src={linkedin_icon} alt="" /></a>
                 <a target="_blank" rel="noreferrer" href="https://github.com/kfir571"><img className="git" src={git_icon} alt="" /></a>
               </div>
-              <HashLink to='#connect'>
+              <HashLink to='#conactEmail'>
                 <button className="vvd"><span>Let’s Connect</span></button>
               </HashLink>
             </span>

@@ -705,3 +705,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     transform: rotate(360deg);
   }
 }
+#avatar-img {
+  height: 150px;
+}
+.conactEmail a {
+  color: #c192d5;
+}

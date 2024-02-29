@@ -1,7 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap"; 
 import snail from "../assets/img/snail.png";
 import linkedin_icon from '../assets/img/linkedin_icon.svg';
-import git_icon from '../assets/img/git_icon.svg';
+import git_icon from '../assets/img/git_icon.png';
 
 export const Footer = () => {
 
