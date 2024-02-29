@@ -2,7 +2,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Container, Row, Col } from "react-bootstrap";
 
-import web_development from "../assets/img/skills_svg/web-development.png"
+import web_development from "../assets/img/skills_svg/web_development.svg"
 import android from "../assets/img/skills_svg/android.svg"
 import python from "../assets/img/skills_svg/python.svg"
 import react from "../assets/img/skills_svg/react.svg"
