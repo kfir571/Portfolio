@@ -6,11 +6,7 @@ import { Projects } from './components/Projects'
 import { Footer } from './components/Footer'
 import { ContactEmail } from './components/ContactEmail'
 
-
-
-
-import 'bootstrap/dist/css/bootstrap.min.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 
 function App() {
   return (
@@ -25,4 +21,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;

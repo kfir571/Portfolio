@@ -32,7 +32,7 @@ export const NavBar = () => {
   }
 
   return (
-    <Router>
+    <Router className="test">
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
@@ -52,9 +52,9 @@ export const NavBar = () => {
                 <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/kfir-shabi1?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2BOHSzn7RScuJxTQ%2BpKTFZA%3D%3D"><img src={linkedin_icon} alt="" /></a>
                 <a target="_blank" rel="noreferrer" href="https://github.com/kfir571"><img className="git" src={git_icon} alt="" /></a>
               </div>
-              <HashLink to='#conactEmail'>
-                <button className="vvd"><span>Let’s Connect</span></button>
-              </HashLink>
+                <HashLink to='#conactEmail'>
+                  <button><span>Let’s Connect</span></button>
+                </HashLink>
             </span>
           </Navbar.Collapse>
         </Container>
