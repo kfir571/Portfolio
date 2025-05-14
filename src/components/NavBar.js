@@ -10,7 +10,6 @@ import {
 
 export const NavBar = () => {
 
-  const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -27,14 +26,12 @@ export const NavBar = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, [])
 
-  const onUpdateActiveLink = (value) => {
-    setActiveLink(value);
-  }
+
 
   return (
     <Router className="test">
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
-        <Container>
+        <Container className="navBarContainer">
           <Navbar.Brand href="/">
             <img src={snail} alt="Logo" />
           </Navbar.Brand>
@@ -42,19 +39,15 @@ export const NavBar = () => {
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto">
-              <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
-              <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
-              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
-            </Nav>
+            <Nav className="ms-auto" />
             <span className="navbar-text">
               <div className="social-icon">
                 <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/kfir-shabi1?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2BOHSzn7RScuJxTQ%2BpKTFZA%3D%3D"><img src={linkedin_icon} alt="" /></a>
                 <a target="_blank" rel="noreferrer" href="https://github.com/kfir571"><img className="git" src={git_icon} alt="" /></a>
               </div>
-                <HashLink to='#conactEmail'>
-                  <button><span>Let’s Connect</span></button>
-                </HashLink>
+              <HashLink to='#conactEmail'>
+                <button className="connnect-btn"><span>Let’s Connect</span></button>
+              </HashLink>
             </span>
           </Navbar.Collapse>
         </Container>
