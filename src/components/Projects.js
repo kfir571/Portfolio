@@ -27,19 +27,19 @@ export const Projects = () => {
     const webProjects = [
         {
             title: "Fest Line Tracker",
-            description: "",
+            description: "Toll price tracking and cost optimization tool.",
             imgUrl: fest_line_tracker,
             src: "https://github.com/kfir571/fest_line_traker",
         },
         {
             title: "Portfolio",
-            description: "",
+            description: "Personal portfolio website",
             imgUrl: portfolio,
             src: "https://github.com/kfir571/Portfolio",
         },
         {
             title: "K-GPT",
-            description: "Mock of Chat Gpt",
+            description: "ChatGPT interface mock",
             imgUrl: k_gpt,
             src: "https://github.com/kfir571/chat-gpt-mock",
         },
