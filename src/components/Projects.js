@@ -26,7 +26,7 @@ export const Projects = () => {
 
     const webProjects = [
         {
-            title: "Fest Line Tracker",
+            title: "Fast Line Tracker",
             description: "Toll price tracking and cost optimization tool.",
             imgUrl: fest_line_tracker,
             src: "https://github.com/kfir571/fest_line_traker",
