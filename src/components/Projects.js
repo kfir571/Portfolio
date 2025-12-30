@@ -5,6 +5,7 @@ import cinma_manger from "../assets/img/project-img/cinma_manger.jpg";
 import portfolio from "../assets/img/project-img/my_protfolio.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import k_gpt from "../assets/img/project-img/k_gpt.png";
+import fest_line_tracker from "../assets/img/project-img/fest_line_tracker.png"
 
 export const Projects = () => {
 
@@ -24,6 +25,12 @@ export const Projects = () => {
     ];
 
     const webProjects = [
+        {
+            title: "Fest Line Tracker",
+            description: "",
+            imgUrl: fest_line_tracker,
+            src: "https://github.com/kfir571/fest_line_traker",
+        },
         {
             title: "Portfolio",
             description: "",
